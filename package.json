@@ -1,0 +1,32 @@
+{
+  "name": "slug-factory",
+  "version": "0.1.0",
+  "description": "Unique slug generator for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-oliveros/slug-factory.git"
+  },
+  "keywords": [
+    "slug",
+    "generator",
+    "unique",
+    "urlify"
+  ],
+  "author": "David Oliveros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-oliveros/slug-factory/issues"
+  },
+  "homepage": "https://github.com/d-oliveros/slug-factory#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "urlify": "^0.3.6"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0"
+  }
+}
