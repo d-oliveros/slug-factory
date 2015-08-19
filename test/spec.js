@@ -11,7 +11,7 @@ describe('slug-factory', function() {
       cb(null, exists);
     }
 
-    slugFactory('slugen-ipson', iterator, function(err, slug) {
+    slugFactory('Slugen ips³ón.', iterator, function(err, slug) {
       if (err) return done(err);
       expect(slug).to.equal('slugen-ipson-3');
       done();

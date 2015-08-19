@@ -21,7 +21,7 @@ function iterator(path, cb) {
   cb(null, exists);
 }
 
-slugFactory('slugen-ipson', iterator, function(err, slug) {
+slugFactory('Slugen ips³ón.', iterator, function(err, slug) {
   console.log(slug); // slugen-ipson-3
 });
 

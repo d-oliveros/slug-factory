@@ -10,7 +10,7 @@ var urlify = Urlify.create({
 });
 
 module.exports = function uniqueSlug(base, checkIterator, callback) {
-  var path = urlify(base.toString());
+  var path = urlify(base.toLowerCase());
   var iteration = 0;
   var valid;
 
